@@ -1,0 +1,931 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 26px;
+}
+h1 {
+  margin: 0px 65px;
+  width: 220px;
+  line-height: normal;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  font-style: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 43px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ac5a5a;
+  text-align: center;
+}
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.9);
+  font-family: 'Montserrat', sans-serif;
+}
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+#modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  transition: all 0.35s ease-in-out;
+  z-index: 40;
+  background-color: #1c1c1cc9;
+}
+#modal #modal-body{
+  width: 100vw;
+  height: 70vh;
+  position: absolute;
+  background: linear-gradient(70deg, #1c1c1c, #0c0c0c);
+  z-index: 30;
+}
+#modal #modal-body .form .lorem1 h1 {
+  position: absolute;
+  left: 35%;
+  top: -25%;
+  width: 100px;
+  font-size: 300%;
+  font-style: italic;
+  letter-spacing: 4px;
+  z-index: 30;
+}
+#modal #modal-body .form .lorem1 p {
+  position: absolute;
+  left: 33.5%;
+  top: -29%;
+  width: 100%;
+  font-size: 200%;
+  font-style: italic;
+  letter-spacing: 4px;
+}
+#modal #modal-body .form {
+  position: absolute;
+  top: 30%;
+  color: #fff;
+  margin-left: 0px;
+}
+#modal #modal-body  .form button {
+  background: #a288a8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 0.5px;
+  padding: 10px 40px;
+  font-size: 12px;
+}
+#modal #modal-body  .form .cover button{
+  background: #9b3d45;
+}
+#modal #modal-body  .form .cover button:hover{
+  background: #9e2339;
+  box-shadow: #1c1c1c;
+}
+#modal #modal-body .form button:hover{
+  background: #7d6183;
+  box-shadow: #1c1c1c;
+}
+#modal #modal-body .form h1{
+  width: 70%;
+  margin-top: -5%;
+}
+#modal #modal-body #close{
+  margin-left: 12%;
+}
+#modal #modal-body .form p {
+  margin-left: 12%;
+  width: 90%;
+  font-size: 100%;
+}
+#modal #modal-body img {
+  height: 70vh;
+}
+/* COVER STYLE */
+.cover-container {
+  background: linear-gradient(70deg, #1c1c1c, #0c0c0c);
+}
+.cover-container .form .lorem1 h1 {
+  position: absolute;
+  left: 283px;
+  top: -100px;
+  width: 100px;
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 4px;
+}
+.cover-container .form .lorem1 p {
+  position: absolute;
+  left: 317px;
+  top: -82px;
+  width: 100px;
+  font-size: 10px;
+  font-style: italic;
+  letter-spacing: 4px;
+}
+.cover-container .form {
+  position: absolute;
+  top: 150px;
+  color: #fff;
+  margin-left: 0px;
+}
+.cover-container .form p {
+  margin-left: 65px;
+  width: 80%;
+}
+.cover-container .form input {
+  background: #ffffff;
+  box-shadow: 6px -2px 4px rgba(0, 0, 0, 0.05), 0px 12px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5px;
+}
+.cover-container .form button {
+  background: #a288a8;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 0.5px;
+  padding: 10px 40px;
+  font-size: 12px;
+}
+.cover-container .form button:hover{
+  background: #7d6183;
+  box-shadow: #1c1c1c;
+}
+/* work */
+.work {
+  margin-top: 0px;
+  background-color: #fafafa;
+  padding: 40px;
+}
+.work img {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.work p {
+  font-size: 10px;
+  color: #6a6a6a;
+  line-height: 17px;
+}
+.work button:hover{
+  background: #7d6183;
+  box-shadow: #1c1c1c;
+  border: #7d6183 ;
+  color: #fff;
+}
+.work button {
+  background: #a288a8;
+  color:#fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border: #a288a8 solid 0.5px;
+  border-radius: 0.5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 11px;
+}
+.work .lateral {
+  position: absolute;
+  z-index: 1;
+}
+.cards .card h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* CARDS */
+.cards .card:hover{
+  background: #c5adca;
+  box-shadow: 10px 10px 8px  #c0a9c5;
+  color: #fff;
+}
+.cards .card {
+  transition: all 1000ms;
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+  width: 230px;
+  min-height: 250px;
+  font-size: 12px;
+  padding: 15px;
+  z-index: 3;
+}
+.cards .title {
+  width: 350px;
+  margin: auto;
+}
+.cards .card img {
+  position: absolute;
+  top: -1rem;
+  left: 5.5rem;
+}
+.cards .col-12 p {
+  color: #6a6a6a;
+}
+.cards .col-12 {
+  z-index: 3;
+}
+
+footer {
+  position: relative;
+  bottom: -185px;
+  width: 100%;
+  height: 20rem;
+  color: white;
+  background: rgb(0, 0, 0);
+}
+footer .social {
+  position: absolute;
+  top: 150px;
+  left: 280px;
+  right: 250px;
+}
+footer .social .col-4 {
+  margin: 0;
+  padding: 0;
+}
+footer .social .icon {
+  width: 50%;
+}
+/* MEDIA QUERYS */
+@media screen and (max-device-width: 413px) {
+  #modal #modal-body .form .lorem1 h1 {
+    position: absolute;
+    left: 25%;
+    top: -20%;
+    width: 100px;
+    font-size: 150%;
+    font-style: italic;
+    letter-spacing: 4px;
+    z-index: 30;
+  }
+  #modal #modal-body .form .lorem1 p {
+    left: 31%;
+    top: -19%;
+    width: 150%;
+    font-size: 70%;
+  }
+  #modal #modal-body .form {
+    top: 25%;
+  }
+  #modal #modal-body  .form button {
+    border: none;
+    border-radius: 0.5px;
+    padding: 10px 40px;
+  }
+  #modal #modal-body .form h1{
+    width: 70%;
+    font-size: 100%;
+    margin-top: -5%;
+  }
+  #modal #modal-body #close{
+    margin-left: 19%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 50%;
+  }
+  #modal #modal-body .form p {
+    margin-left: 17%;
+    width: 65%;
+    font-size: 80%;
+  }
+  #modal #modal-body img {
+    height: 70vh;
+  }
+  .cover-container {
+    height: 300px;
+    width: 100vw;
+  }
+  .cover-container img {
+    height: 300px;
+  }
+  .cover-container .form .lorem1 h1 {
+    left: 26%;
+    top: -127px;
+    font-size: 20px;
+  }
+  .cover-container .form .lorem1 p {
+    left: 32%;
+    top: -94%;
+    width: 100px;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 4px;
+  }
+  .cover-container .cover h1 {
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: -70px;
+    width: 80%;
+  }
+  .cover-container .cover p {
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 70%;
+    font-size: 12px;
+  }
+  .work {
+    padding: 10%;
+  }
+  .work .text {
+    margin-bottom: 5%;
+  }
+  .work .text h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .work .text p {
+    margin-bottom: 15%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .cards {
+    margin: auto;
+    background-size: cover;
+    background-image: url("http://drive.google.com/uc?export=view&id=189v2MzQDL17joY-STnjNDjJRKce1G94M");
+    width: 100vw;
+    height: 240vh;
+  }
+  .cards p {
+    font-size: 12px;
+  }
+  .cards .card {
+    padding: 5vw;
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 10vh;
+    min-height: 45vh;
+  }
+  .cards .card p {
+    font-size: 13px;
+  }
+  .cards .card img {
+    left: 30vw;
+  }
+  footer {
+    top: -12vw;
+    width: 1800px;
+    height: 50vh;
+  }
+  footer .social {
+    top: 40vw;
+    left: 110px;
+    right: 80px;
+  }
+}
+
+/* -------------- MAx 414px -----------*/
+@media screen and (min-device-width: 414px) and (max-device-width: 767px) {
+  #modal #modal-body .form .lorem1 h1 {
+    position: absolute;
+    left: 25%;
+    top: -30%;
+    width: 100px;
+    font-size: 150%;
+    font-style: italic;
+    letter-spacing: 4px;
+    z-index: 30;
+  }
+  #modal #modal-body .form .lorem1 p {
+    left: 31%;
+    top: -17%;
+    width: 150%;
+    font-size: 70%;
+  }
+  #modal #modal-body .form {
+    top: 25%;
+  }
+  #modal #modal-body  .form button {
+    border: none;
+    border-radius: 0.5px;
+    padding: 10px 40px;
+  }
+  #modal #modal-body .form h1{
+    width: 70%;
+    font-size: 100%;
+    margin-top: 0%
+  }
+  #modal #modal-body #close{
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  #modal #modal-body .form p {
+    margin-left: 10%;
+    width: 65%;
+    font-size: 80%;
+  }
+  #modal #modal-body img {
+    height: 70vh;
+  }
+  .cover-container {
+    height: 300px;
+    width: 100vw;
+  }
+  .cover-container img {
+    height: 300px;
+  }
+  .cover-container .form .lorem1 h1 {
+    left: 26%;
+    top: -137px;
+    font-size: 20px;
+  }
+  .cover-container .form .lorem1 p {
+    left: 32%;
+    top: -84%;
+    width: 100px;
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: 4px;
+  }
+  .cover-container .cover h1 {
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: -70px;
+    width: 80%;
+  }
+  .cover-container .cover p {
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 80%;
+    font-size: 16px;
+  }
+  .work {
+    padding: 10%;
+  }
+  .work .text {
+    margin-bottom: 5%;
+  }
+  .work .text h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .work .text p {
+    margin-bottom: 15%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .cards {
+    margin: auto;
+    background-size: cover;
+    background-image: url("http://drive.google.com/uc?export=view&id=189v2MzQDL17joY-STnjNDjJRKce1G94M");
+    width: 100vw;
+    height: 260vh;
+  }
+  .cards p {
+    font-size: 16px;
+  }
+  .cards .card {
+    padding: 3vw;
+    width: 75vw;
+    margin: auto;
+    margin-bottom: 10vh;
+    min-height: 60vh;
+  }
+  .cards .card p {
+    font-size: 16px;
+  }
+  .cards .card img {
+    left: 30vw;
+  }
+  footer {
+    top: -12vw;
+    width: 1800px;
+    height: 50vh;
+  }
+  footer .social {
+    top: 40vw;
+    left: 110px;
+    right: 80px;
+  }
+}
+
+/* --------768px--------------- */
+@media screen and (min-device-width: 768px) and (max-device-width: 1365px) {
+  
+  #modal #modal-body .form .lorem1 h1 {
+    position: absolute;
+    left: 35%;
+    top: -30%;
+    width: 100px;
+    font-size: 150%;
+    font-style: italic;
+    letter-spacing: 4px;
+    z-index: 30;
+  }
+  #modal #modal-body .form .lorem1 p {
+    left: 31%;
+    top: -19%;
+    width: 150%;
+    font-size: 70%;
+  }
+  #modal #modal-body .form {
+    top: 25%;
+  }
+  #modal #modal-body  .form button {
+    border: none;
+    border-radius: 0.5px;
+    padding: 10px 40px;
+  }
+  #modal #modal-body .form h1{
+    width: 75%;
+    font-size: 100%;
+    margin-top: 1%
+  }
+  #modal #modal-body #close{
+    margin-left: 19%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #modal #modal-body .form p {
+    margin-left: 19%;
+    width: 70%;
+    font-size: 80%;
+  }
+  #modal #modal-body img {
+    height: 70vh;
+  }
+  .cover-container {
+    width: 100vw;
+    height: 400px;
+  }
+  .cover-container img {
+    height: 400px;
+  }
+  .cover-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+  .cover-container p {
+    margin-top: 5px;
+    width: 200px;
+    font-size: 0.8rem;
+  }
+  .cover-container .form input {
+    padding: 14px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .work .lateral {
+    width: 20%;
+    right: -6px;
+    top: 610px;
+  }
+  .cards {
+    margin: auto;
+    position: relative;
+    background-size: cover;
+    background-image: url("http://drive.google.com/uc?export=view&id=189v2MzQDL17joY-STnjNDjJRKce1G94M");
+    width: 100vw;
+    height: 100vh;
+  }
+  .cards .card {
+    width: 90%;
+    font-size: 100%;
+    padding: 9px;
+    line-height: 17px;
+    margin: auto;
+  }
+  .cards .card p {
+    line-height: 17px;
+  }
+  .cards .card h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .cards p {
+    font-size: 10px;
+  }
+  .cards h2 {
+    font-size: 20px;
+  }
+  .cards .title {
+    width: 550px;
+    margin: auto;
+  }
+  #footer {
+    top: -10vh;
+    width: 102.5vw;
+    left: -20px;
+    color: white;
+    background: rgb(0, 0, 0);
+  }
+}
+/* --------------1366px -----------*/
+@media screen and (min-device-width: 1366px) and (max-device-width: 1919px) {
+  .cover-container {
+    height: 690px;
+    width: 100%;
+  }
+  .cover-container img {
+    height: 690px;
+  }
+  .cover-container .form .lorem1 h1 {
+    left: 480px;
+    top: -170px;
+    width: 100px;
+  }
+  .cover-container .form .lorem1 p {
+    left: 515px;
+    top: -73px;
+    letter-spacing: 4px;
+    font-size: 18px;
+  }
+  .cover-container .form p {
+    margin-top: 12px;
+    margin-left: 140px;
+    padding-right: 15px;
+    width: 540px;
+    font-size: 16px;
+  }
+  .cover-container .form h1 {
+    margin-top: 85px;
+    font-size: 54px;
+    margin-left: 140px;
+    width: 500px;
+    line-height: 111.8%;
+    letter-spacing: 0.1em;
+  }
+  .cover-container .form form {
+    margin-top: 70px;
+    width: 540px;
+  }
+  .work h2 {
+    font-size: 36px;
+    text-align: left;
+    width: 85%;
+  }
+  .work p {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .work .text {
+    margin-left: 60px;
+  }
+  .work .img-work {
+    width: 450px;
+    margin-left: 0px;
+  }
+  .work .lateral {
+    width: 20%;
+    right: 0%;
+    top: 950px;
+  }
+  #image img {
+    position: absolute;
+    z-index: 2;
+    right: 0px;
+  }
+  .cards {
+    padding: 200px;
+    position: relative;
+    background-size: cover;
+    background-image: url("http://drive.google.com/uc?export=view&id=189v2MzQDL17joY-STnjNDjJRKce1G94M");
+    width: 100vw;
+    height: 170vh;
+  }
+  .cards .card {
+    width: 300px;
+    height: 320px;
+    padding: 5px;
+  }
+  .cards {
+    margin-top: 50px;
+  }
+  .cards p {
+    font-size: 16px;
+  }
+  .cards h2 {
+    font-size: 36px;
+  }
+  .cards .title {
+    width: 550px;
+    margin: auto;
+  }
+  .cards .card img {
+    top: -1rem;
+    left: 7.5rem;
+  }
+  .cards .card .card-body {
+    padding-top: 25px;
+  }
+  footer {
+    top: -49px;
+    width: 1800px;
+    height: 100vh;
+  }
+  footer .social {
+    top: 290px;
+    left: 480px;
+    right: 450px;
+  }
+}
+/* --------------1920px -----------*/
+@media screen and (min-device-width: 1920px) {
+  .cover-container {
+    height: 100vh;
+    width: 100%;
+  }
+  .cover-container img {
+    height: 100vh;
+  }
+  .cover-container .form .lorem1 h1 {
+    font-size: 4rem;
+    left: 35%;
+    top: -270px;
+    width: 100px;
+  }
+  .cover-container .form .lorem1 p {
+    left: 38.3vw;
+    top: -7.8vw;
+    letter-spacing: 4px;
+    font-size: 3rem;
+  }
+  .cover-container .form {
+    margin-top: 5vw;
+    width: 100vw;
+  }
+  .cover-container .form p {
+    margin-top: 12px;
+    margin-left: 140px;
+    padding-right: 15px;
+    width: 42vw;
+    font-size: 1.5rem;
+    line-height: 111.8%;
+  }
+  .cover-container .form h1 {
+    margin-top: 85px;
+    font-size: 300%;
+    margin-left: 140px;
+    width: 80vh;
+    line-height: 111.8%;
+    letter-spacing: 0.1em;
+  }
+  .cover-container .form form {
+    margin-top: 4vw;
+    width: 70vh;
+    height: 40vh;
+  }
+  .cover-container .form input{
+    height: 100%;
+  }
+  .cover-container .form button{
+    width: 30%;
+    height: 100%;
+    font-size: 16px;
+  }
+  .work{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+  .work h2 {
+    font-size: 36px;
+    text-align: left;
+    width: 85%;
+  }
+  .work p {
+    width: 32vw;
+    font-size: 1.2rem;
+    line-height: 111.8%;
+  }
+  .work .text {
+    margin-left: 60px;
+  }
+  .work .img-work {
+    width: 25vw;
+  }
+  .work .lateral {
+    width: 25vw;
+    height: 5vw;
+    right: -.6vw;
+    top: 30%;
+  }
+  .work .text button{
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+  }
+  #image img {
+    position: absolute;
+    z-index: 2;
+    right: 15px;
+  }
+  .cards {
+    padding: 200px;
+    position: relative;
+    background-size: cover;
+    background-image: url("http://drive.google.com/uc?export=view&id=189v2MzQDL17joY-STnjNDjJRKce1G94M");
+    width: 100vw;
+    height: 170vh;
+  }
+  .cards .card {
+    margin: auto;
+    width: 20vw;
+    height: 25vw;
+    padding: 5px;
+  }
+  .cards p {
+    font-size: 1.5rem;
+    line-height: 111.8%;
+  }
+  .cards h2 {
+    font-size: 36px;
+  }
+  .cards .title {
+    width: 550px;
+    margin: auto;
+  }
+  .cards .card img {
+    top: -1rem;
+    left: 9.5rem;
+  }
+  .cards .card .card-body {
+    padding-top: 4vw;
+  }
+  .cards .card .card-body h3{
+    font-size: 2rem;
+  }
+  .cards .card .card-body  h6{
+    font-size: 1.5rem;
+  }
+  
+  footer {
+    top: -49px;
+    width: 100vw;
+    height: 100vh;
+  }
+  footer .title{
+    position: absolute;
+    font-size: 2.5rem;
+    left: 38vw;
+    top:12vw;
+    font-size: 5vw;
+    font-style: italic;
+  }
+  footer .text{
+    position: absolute;
+    font-size: 2rem;
+    left: 46vw;
+    top:18.3vw;
+    font-size: 4vw;
+    font-style: italic;
+  }
+  footer .copyright{
+    position: absolute;
+    font-size: 1.5rem;
+    top:70%;
+    left: 38vw;
+  }
+  footer .social {
+    top: 80%;
+    margin-left: 22.5vw;
+    margin-right: 20vw;
+  }
+  footer .image {
+    position: absolute;
+    bottom: 0;
+    left: 47vw;
+    padding: 0;
+    margin: 0;
+    width: 100px;
+  }
+  
+}
